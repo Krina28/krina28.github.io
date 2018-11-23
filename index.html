@@ -51,6 +51,7 @@
         </div>
     </div>
     <!-- banner end  -->
+
     <section id='about' class='about'>
         <div class='container'>
             <div class='row py-5'>
@@ -210,7 +211,7 @@
                     <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
                         <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                             <div>
-                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> Marketing</h5>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> ReactJS + NodeJS</h5>
                                 <h3 class="card-title pt-2"><strong>FALDAX</strong></h3>
                                 <p>FALDAX consolidates your entire trading experience into a single cryptocurrency
                                     platform. FALDAX will propel the industry with
@@ -232,8 +233,8 @@
                 </div>
             </div>
 
-            <div class='row'>
-                <div class="col-md-4">
+            <div class="grid">
+                <div class="grid-item">
                     <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="./images/blogs/blog1.jpeg" alt="Card image cap">
@@ -246,7 +247,8 @@
                             <a class="activator waves-effect waves-light mr-4"></a>
                             <h4 class="card-title">JavaScript Basics</h4>
                             <hr>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
                                 bulk of the card's content.</p>
                             <a href="https://medium.com/@krinasoni28/all-about-javascript-basics-6a22894c6ed7" class="black-text d-flex justify-content-end">
                                 <h5>Read more <i class="fa fa-angle-double-right"></i></h5>
@@ -254,7 +256,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="grid-item">
                     <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="./images/blogs/blog2.jpeg" alt="Card image cap">
@@ -276,7 +279,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="grid-item">
                     <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="./images/blogs/blog3.png" alt="Card image cap">
@@ -296,9 +300,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class='row'>
-                <div class="col-md-4">
+
+                <div class="grid-item">
                     <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="./images/blogs/blog4.png" alt="Card image cap">
@@ -315,12 +318,13 @@
                                 bulk of the card's content.</p>
                             <a href="https://medium.com/@krinasoni28/structuring-your-react-app-dad4cc1c7685">
                                 <h5>Read more <i class=" fa
-                                fa-angle-double-right"></i></h5>
+                                    fa-angle-double-right"></i></h5>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="grid-item">
                     <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="./images/blogs/blog5.png" alt="Card image cap">
@@ -342,7 +346,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="grid-item">
                     <div class="card">
                         <div class="view overlay">
                             <img class="card-img-top" src="./images/blogs/blog6.png" alt="Card image cap">
@@ -363,7 +368,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
+            </div><!-- End grid -->
         </div>
     </section>
     <section id='photograph' class='photograph'>
@@ -376,7 +382,7 @@
 
             <div class='row'>
                 <div class="col-md-12">
-                    <div id="carousel-with-lb" class="carousel slide carousel-multi-item" data-ride="carousel">
+                    <div id="carousel-with-lb" class="carousel slide carousel-multi-item">
 
                         <!--Controls-->
                         <!-- <div class="controls-top">
@@ -386,46 +392,51 @@
                         <!--/.Controls-->
 
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
-                            <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
-                            <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
+                            <li data-target="#carousel-with-lb" data-slide-to="0" class="active indicator-color"></li>
+                            <li data-target="#carousel-with-lb" data-slide-to="1" class="indicator-color"></li>
                         </ol>
 
                         <div class="carousel-inner mdb-lightbox" role="listbox">
                             <div id="mdb-lightbox-ui"></div>
 
-                            <div class=" carousel-item active text-center">
+                            <div class="carousel-item active text-center">
                                 <figure class="col-md-4 d-md-inline-block">
                                     <a href="./images/gallery/pic1.jpg" data-size="1600x1067">
-                                        <img src="./images/gallery/pic1.jpg" class="img-fluid">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic1.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
 
                                 <figure class="col-md-4 d-md-inline-block">
                                     <a href="./images/gallery/pic2.jpg" data-size="1600x1067">
-                                        <img src="./images/gallery/pic2.jpg" class="img-fluid">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic2.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
 
                                 <figure class="col-md-4 d-md-inline-block">
                                     <a href="./images/gallery/pic3.JPG" data-size="1600x1067">
-                                        <img src="./images/gallery/pic3.JPG" class="img-fluid">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic3.JPG')">
+                                        </div>
                                     </a>
                                 </figure>
 
                                 <figure class="col-md-4 d-md-inline-block">
                                     <a href="./images/gallery/pic4.jpg" data-size="1600x1067">
-                                        <img src="./images/gallery/pic4.jpg" class="img-fluid">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic4.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
                                 <figure class="col-md-4 d-md-inline-block">
                                     <a href="./images/gallery/pic5.jpg" data-size="1600x1067">
-                                        <img src="./images/gallery/pic5.jpg" class="img-fluid">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic5.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
                                 <figure class="col-md-4 d-md-inline-block">
                                     <a href="./images/gallery/pic6.jpg" data-size="1600x1067">
-                                        <img src="./images/gallery/pic6.jpg" class="img-fluid">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic6.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
                             </div>
@@ -433,101 +444,44 @@
                             <div class="carousel-item text-center">
 
                                 <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg"
-                                            class="img-fluid">
+                                    <a href="./images/gallery/pic7.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic7.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
 
                                 <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
-                                            class="img-fluid">
+                                    <a href="./images/gallery/pic8.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic8.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
 
                                 <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg"
-                                            class="img-fluid">
+                                    <a href="./images/gallery/pic9.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic9.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
 
                                 <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg"
-                                            class="img-fluid">
+                                    <a href="./images/gallery/pic10.JPG" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic10.JPG')">
+                                        </div>
                                     </a>
                                 </figure>
                                 <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg"
-                                            class="img-fluid">
+                                    <a href="./images/gallery/pic11.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic11.jpg')">
+                                        </div>
                                     </a>
                                 </figure>
                                 <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg"
-                                            class="img-fluid">
+                                    <a href="./images/gallery/pic12.JPG" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic12.JPG')">
+                                        </div>
                                     </a>
                                 </figure>
-
-                            </div>
-
-                            <div class="carousel-item text-center">
-
-                                <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg"
-                                            class="img-fluid">
-                                    </a>
-                                </figure>
-
-                                <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg"
-                                            class="img-fluid">
-                                    </a>
-                                </figure>
-
-                                <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg"
-                                            class="img-fluid">
-                                    </a>
-                                </figure>
-
-                                <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
-                                            class="img-fluid">
-                                    </a>
-                                </figure>
-                                <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg"
-                                            class="img-fluid">
-                                    </a>
-                                </figure>
-                                <figure class="col-md-4 d-md-inline-block">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(77).jpg"
-                                        data-size="1600x1067">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(77).jpg"
-                                            class="img-fluid">
-                                    </a>
-                                </figure>
-
                             </div>
                         </div>
                     </div>
@@ -575,6 +529,7 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript" src="js/pro.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <!-- <script src="js/wow.min.js"></script> -->
 </body>
