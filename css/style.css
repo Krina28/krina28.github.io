@@ -70,6 +70,10 @@
   .indicator-color{
     background-color: #3f729b!important
   }
+  .footer{
+    display: flex;
+    align-items: center;
+  }
 
 body {
     background-color: #474e5d;
