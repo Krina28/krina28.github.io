@@ -3,177 +3,535 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#5c453f">
-    <title>Krina & Jaymin</title>
-
-    <!-- Favicons
-================================================== -->
-    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
-    <link rel="icon" href="favicon2.ico" type="image/x-icon">
-    <!-- / Favicons
-================================================== -->
-
-    <!-- >> CSS	
-============================================================================== -->
-    <!-- google web fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <!-- /google web fonts -->
-    <!-- bootstrap -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- nivo lightbox -->
-    <link href="vendor/nivo-lightbox/nivo-lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/nivo-lightbox/themes/default/default.css" type="text/css" />
-    <!-- animate -->
-    <link href="vendor/animate.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Krina Soni</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <!-- main styles -->
-    <link href="css/styles.css" rel="stylesheet">
-    <!-- >> /CSS
-============================================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/pro.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <!-- Page Loader
-========================================================= -->
-    <div class="loader" id="page-loader">
-        <div class="loading-wrapper">
-            <div class="loader-heart loader-heart1"><img src="img/intro-heart.png" alt=""></div>
-            <div class="loader-heart loader-heart2"><img src="img/intro-heart.png" alt=""></div>
-            <div class="loader-heart loader-heart3"><img src="img/intro-heart.png" alt=""></div>
+    <!-- nav bar started -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark unique-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photograph">Photographs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav bar end -->
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="container text-center">
+            <h1 class="main-heading">Hi, I'm Krina Soni</h1>
+            <span id="sub-heading" class="sub-heading"></span>
         </div>
     </div>
-    <!-- /End of Page loader
-========================================================= -->
+    <!-- banner end  -->
 
-    <!-- === PAGE BACKGROUND === -->
-    <!-- Background container -->
-    <div class="page-background-container viewport">
-        <!-- background-mask -->
-        <div class="bg-mask viewport"></div>
-        <!-- /background-mask -->
-        <!-- background-slideshow -->
-        <div class="bg-slideshow">
-            <!-- slideshow-item -->
-            <div class="page-background viewport" style="background-image: url('img/us.jpg')"></div>
-            <!-- /slideshow-item -->
-        </div>
-        <!--/Background-slideshow -->
-    </div>
-    <!-- Background-container -->
-    <!-- === /PAGE BACKGROUND === -->
-
-    <!-- Main Content
-================================================== -->
-    <div id="body" class="viewport animated">
-        <div class="container">
-            <div class="boxed-content">
-                <!-- content -->
-                <div class="page-content page-home">
-                    <!-- home logo -->
-                    <div class="row">
-                        <div class="home-logo col-sm-8 col-sm-offset-2">
-                            <p class="couple-title">Krina & Jaymin</p>
-                        </div>
-                    </div>
-                    <!-- /home-logo -->
-                    <!-- Countdown container -->
-                    <div class="row">
-                        <div class="countdown-container">
-                            <!-- icon -->
-                            <div class="countdown-icon">
-                                <img src="img/ico-heart2.png" alt="">
-                            </div>
-                            <!-- /icon -->
-                            <!-- countdown title top -->
-                            <h2 class="countdown-title countdown-title1"><span class="countdown-title-borders">February
-                                    8, 2019 in Ahmedabad</span></h2>
-                            <!-- /countdown title top -->
-                            <!-- countdown ( Edit it on main.js )-->
-                            <div class="row">
-                                <div class="col-xs-8 col-xs-offset-2">
-                                    <div id="countdown" class="row"></div>
-                                </div>
-                            </div>
-                            <!-- /countdown -->
-                            <!-- countdown title bot -->
-                            <h3 class="countdown-title countdown-title2"><span class="countdown-title-borders">Until we
-                                    get Married!</span></h3>
-                            <!-- countdown title /bot -->
-                        </div>
-                    </div>
-                    <!-- /Countdown Container -->
+    <section id='about' class='about'>
+        <div class='container'>
+            <div class='row py-5'>
+                <div class='col-md-12 text-center'>
+                    <h2>About</h2>
                 </div>
-                <!-- /content -->
-                <!-- footer -->
-                <footer id="footer">
-                    <p class="footer-icon"><img src="img/ft-icon.png" alt=""></p>
-                    <p class="quote-content">"Every Love Story is Beautiful But <b>OURS</b> is my Favourite"</p>
-                </footer>
-                <!-- /footer -->
+            </div>
+
+            <div class='row'>
+                <div class="col-md-6">
+                    <div class="image"></div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Hi, I'm Software Developer</h2>
+                    <p>I am a Full-Stack Web Developer with over two years of experience.
+                        I have maintained, developed and launched multiple projects from scratch,
+                        carrying the development of its' back-end and front-end codebases.
+                    </p>
+                    <ul class="about-list">
+                        <li>
+                            I believe in READING CHANGES EVERYTHING.
+                        </li>
+                        <li>
+                            I Learn. I Develop. I Write.
+                        </li>
+                        <li>
+                            I love capturing moments because every picture has a story to tell.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h2>2018</h2>
+                        <p>Full Stack Web Developer(Aug 2018 - Present)</p>
+                        <span>Openxcell Technolabs.</span>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h2>2017</h2>
+                        <p>Software Engineer(2016- 2018)</p>
+                        <span>Bacancy Technology</span>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h2>2016</h2>
+                        <p>Bachelor of Engineering in Computer.</p>
+                        <span>Vishwakarma Government Engineering College</span>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h2>2013</h2>
+                        <p>Diploma in Engineering - Computer.</p>
+                        <span>Government Polytechnic For Girls</span>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h2>2010</h2>
+                        <p>Secondary School Certificate</p>
+                        <span>Gujarat Secondary and Higher Secondary Education Board</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- /Main Content
-================================================== -->
+    </section>
+    <section id='project' class='project'>
+        <div class='container'>
+            <div class='row py-5'>
+                <div class='col-md-12 text-center'>
+                    <h2>Projects</h2>
+                </div>
+            </div>
 
-    <!-- >> JS
-============================================================================== -->
+            <div class='row'>
+                <div class='col-md-6 mt-4'>
+                    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> Angular</h5>
+                                <h3 class="card-title pt-2"><strong>Stratus Link</strong></h3>
+                                <p>Stratus Link system stores patients data uploaded by doctors and hospitals and
+                                    make it available online for all the doctors and hospitals.
+                                </p>
+                                <a class="btn btn-blue"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mt-4'>
+                    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> React + Cordova</h5>
+                                <h3 class="card-title pt-2"><strong>WellnessNW</strong></h3>
+                                <p>The project is based on healthcare for particular doctors and their superiors
+                                    to utilize the processes.
+                                    Supervisors can assign and follow up the process.
+                                </p>
+                                <a class="btn btn-blue"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mt-4'>
+                    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> ReactJS + Cordova</h5>
+                                <h3 class="card-title pt-2"><strong>NewHere</strong></h3>
+                                <p>This project is based on school events application in which student
+                                    as well school can create events & using geographical location, nearby events
+                                    filtering & searching functionalities.
+                                </p>
+                                <a class="btn btn-blue"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mt-4'>
+                    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> React On Rails</h5>
+                                <h3 class="card-title pt-2"><strong>Datacenters</strong></h3>
+                                <p>Datacenters is global marketplace for buyers and sellares of data center, cloud and
+                                    connectivity services. It has providers with their different locations of data
+                                    centers all over the world.
+                                </p>
+                                <a class="btn btn-blue"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mt-4'>
+                    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i>ReactJS</h5>
+                                <h3 class="card-title pt-2"><strong>BeerTap CMS</strong></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
+                                    laboriosam, voluptatem,
+                                    optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum
+                                    dignissimos.
+                                    Odit sed qui, dolorum!.</p>
+                                <a class="btn btn-blue"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mt-4'>
+                    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> ReactJS + NodeJS</h5>
+                                <h3 class="card-title pt-2"><strong>FALDAX</strong></h3>
+                                <p>FALDAX consolidates your entire trading experience into a single cryptocurrency
+                                    platform. FALDAX will propel the industry with
+                                    forward-thinking innovations that enhance every trader’s
+                                    experience. </p>
+                                <a class="btn btn-blue"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="vendor/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Validate -->
-    <script src="vendor/validate.js"></script>
-    <!-- Countdown -->
-    <script src="vendor/jquery.countdown.min.js"></script>
-    <!-- Mansonry -->
-    <script src="vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/masonry.pkgd.min.js"></script>
-    <!-- Modal box-->
-    <script src="vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
-    <!-- Cycle -->
-    <script src="vendor/cycle2.js"></script>
-    <!-- SmoothScroll -->
-    <script src="vendor/smoothScroll.js"></script>
-    <!-- Placeholder for IE -->
-    <script src="vendor/placeholders.jquery.min.js"></script>
-    <!-- Crossbrowser -->
-    <script src="js/cross-browser.js"></script>
-    <!-- Owl Caroulsel -->
-    <script src="vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
-    <!-- Main Config -->
-    <script src="js/main.js"></script>
-    <!-- Holder -->
-    <script src="vendor/holder.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-  <script src="vendor/html5shiv.js"></script>
-  <script src="vendor/respond.min.js"></script>
-<![endif]-->
-    <!-- >> /JS
-============================================================================= -->
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id='blog' class='blog'>
+        <div class='container'>
+            <div class='row py-5'>
+                <div class='col-md-12 text-center'>
+                    <h2>Blogs</h2>
+                </div>
+            </div>
 
-    <!-- analytics -->
-    <!-- <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./images/blogs/blog1.jpeg" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
 
-        ga('create', 'UA-62459928-1', 'auto');
-        ga('send', 'pageview');
+                        <div class="card-body">
+                            <a class="activator waves-effect waves-light mr-4"></a>
+                            <h4 class="card-title">JavaScript Basics</h4>
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                            <a href="https://medium.com/@krinasoni28/all-about-javascript-basics-6a22894c6ed7" class="black-text d-flex justify-content-end">
+                                <h5>Read more <i class="fa fa-angle-double-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-    </script> -->
-    <!-- /analytics -->
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./images/blogs/blog2.jpeg" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <a class="activator waves-effect waves-light mr-4"></a>
+                            <h4 class="card-title">All About ReactJS</h4>
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://medium.com/@krinasoni28/lets-dive-into-famous-javascript-library-that-is-making-devs-into-it-that-s-how-it-has-been-1b73570b9e81"
+                                class="black-text d-flex justify-content-end">
+                                <h5>Read more <i class="fa fa-angle-double-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./images/blogs/blog3.png" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a class="activator waves-effect waves-light mr-4"></a>
+                            <h4 class="card-title">React Life cycle Hooks</h4>
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://medium.com/@krinasoni28/react-life-cycle-hooks-15d7c181d5b1" class="black-text d-flex justify-content-end">
+                                <h5>Read more <i class="fa fa-angle-double-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./images/blogs/blog4.png" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <a class="activator waves-effect waves-light mr-4"></a>
+                            <h4 class="card-title">Structuring React App</h4>
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://medium.com/@krinasoni28/structuring-your-react-app-dad4cc1c7685" class="black-text d-flex justify-content-end">
+                                <h5>Read more <i class="fa
+                                    fa-angle-double-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./images/blogs/blog5.png" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <a class="activator waves-effect waves-light mr-4"></a>
+                            <h4 class="card-title">React + Webpack App</h4>
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://medium.com/@krinasoni28/react-app-with-webpack-from-scratch-20561da79832"
+                                class="black-text d-flex justify-content-end">
+                                <h5>Read more <i class="fa fa-angle-double-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./images/blogs/blog6.png" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a class="activator waves-effect waves-light mr-4"></a>
+                            <h4 class="card-title">ECMAScript 2015 - ES6</h4>
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://medium.com/@krinasoni28/es6-what-you-need-and-what-you-should-know-75c7656944c2"
+                                class="black-text d-flex justify-content-end">
+                                <h5>Read more <i class="fa fa-angle-double-right"></i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- End grid -->
+        </div>
+    </section>
+    <section id='photograph' class='photograph'>
+        <div class='container'>
+            <div class='row py-5'>
+                <div class='col-md-12 text-center'>
+                    <h2>Photographs</h2>
+                </div>
+            </div>
+
+            <div class='row'>
+                <div class="col-md-12">
+                    <div id="carousel-with-lb" class="carousel slide carousel-multi-item">
+
+                        <!--Controls-->
+                        <!-- <div class="controls-top">
+                            <a class="btn-floating btn-secondary" href="#carousel-with-lb" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                            <a class="btn-floating btn-secondary" href="#carousel-with-lb" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                        </div> -->
+                        <!--/.Controls-->
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-with-lb" data-slide-to="0" class="active indicator-color"></li>
+                            <li data-target="#carousel-with-lb" data-slide-to="1" class="indicator-color"></li>
+                        </ol>
+
+                        <div class="carousel-inner mdb-lightbox" role="listbox">
+                            <div id="mdb-lightbox-ui"></div>
+
+                            <div class="carousel-item active text-center">
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic1.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic1.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic2.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic2.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic3.JPG" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic3.JPG')">
+                                        </div>
+                                    </a>
+                                </figure>
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic4.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic4.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic5.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic5.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic6.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic6.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+                            </div>
+
+                            <div class="carousel-item text-center">
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic7.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic7.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic8.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic8.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic9.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic9.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic10.JPG" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic10.JPG')">
+                                        </div>
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic11.jpg" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic11.jpg')">
+                                        </div>
+                                    </a>
+                                </figure>
+                                <figure class="col-md-4 d-md-inline-block">
+                                    <a href="./images/gallery/pic12.JPG" data-size="1600x1067">
+                                        <div class="img-fluid gallery-img" style="background-image: url('./images/gallery/pic12.JPG')">
+                                        </div>
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer footer font-small special-color-dark pt-4">
+        <!-- Footer Elements -->
+        <div class="container">
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a href="https://stackoverflow.com/users/8880590/krina-soni" class="btn-floating btn-fb mx-1">
+                        <i class="fa fa-stack-overflow"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://medium.com/@krinasoni28" class="btn-floating btn-tw mx-1">
+                        <i class="fa fa-medium"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://in.linkedin.com/in/krina-soni" class="btn-floating btn-li mx-1">
+                        <i class="fa fa-linkedin"> </i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Social buttons -->
+        </div>
+        <!-- Footer Elements -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/pro.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- <script src="js/wow.min.js"></script> -->
 </body>
 
 </html>
